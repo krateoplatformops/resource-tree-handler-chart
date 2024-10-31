@@ -20,3 +20,11 @@ rules:
   verbs:
   - patch
   - update
+- apiGroups:
+  - resourcetrees.krateo.io
+  resources:
+  - compositionreferences/status
+  verbs:
+  - get
+  - patch
+  - update
