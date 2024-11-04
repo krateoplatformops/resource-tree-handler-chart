@@ -8,3 +8,4 @@ data:
   RESOURCE_TREE_HANDLER_API_PORT: "{{ .Values.service.port }}"
   DEBUG_LEVEL: "{{ .Values.env.DEBUG_LEVEL }}"
   URL_SSE: "{{ .Values.env.URL_SSE }}"
+  URL_PLURALS: "{{ .Values.env.URL_PLURALS }}"

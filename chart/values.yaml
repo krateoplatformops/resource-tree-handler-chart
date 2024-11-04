@@ -127,3 +127,4 @@ affinity: {}
 env:
   DEBUG_LEVEL: info # one of debug, warning, info, or error
   URL_SSE: http://eventsse-internal.krateo-system.svc.cluster.local:8083/notifications
+  URL_PLURALS: 
