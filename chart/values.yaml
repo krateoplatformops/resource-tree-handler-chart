@@ -125,6 +125,6 @@ tolerations: []
 affinity: {}
 
 env:
-  DEBUG_LEVEL: info # one of debug, warning, info, or error
+  DEBUG_LEVEL: debug # one of debug, info, warning, or error
   URL_SSE: http://eventsse-internal.krateo-system.svc.cluster.local:8083/notifications
   URL_PLURALS: http://bff.krateo-system.svc.cluster.local:8081/api-info/names
