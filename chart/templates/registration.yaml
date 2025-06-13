@@ -1,8 +1,7 @@
 apiVersion: eventrouter.krateo.io/v1alpha1
 kind: Registration
 metadata:
-  name: {{ include "resource-tree-handler.fullname" . }}
-  namespace: {{ .Release.Namespace }}
+  name: {{ include "resource-tree-handler.fullname" . }}-{{ .Release.Namespace }}
 spec:
   serviceName: resource-tree-handler-sse
   endpoint: http://{{ include "resource-tree-handler.fullname" . }}.{{ .Release.Namespace }}.svc.cluster.local:{{ .Values.service.port }}/handle
