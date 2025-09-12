@@ -22,5 +22,5 @@ appVersion: APP_VERSION
 
 dependencies:
   - name: resource-tree-handler-crd
-    version: 0.0.1
+    version: CHART_VERSION
     repository: file://../crd-chart
